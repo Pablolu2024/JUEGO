@@ -33,11 +33,11 @@ context.imageSmoothingEnabled = false
 
 //Sprites references
 const img = new Image();
-img.src = 'src\\img\\wallTexture.png';
+img.src = 'img\\wallTexture.png';
 const imgWeapon = new Image();
-imgWeapon.src = 'src\\img\\weapon.png';
+imgWeapon.src = 'img\\weapon.png';
 const enemy_sprite = new Image();
-enemy_sprite.src = 'src\\img\\enemy.png';
+enemy_sprite.src = 'img\\enemy.png';
 
 const imageData = context.getImageData(0, 0, 64, 64);
 const pixels = imageData.data;
